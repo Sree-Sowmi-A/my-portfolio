@@ -67,14 +67,13 @@
  <div class="stat reveal"><b data-count="7">7</b><span>Featured projects</span></div>
 </div></div></section>
 
-<!-- Pinned Cinematic Slideshow Section with Mini Timeline Scrubber -->
+<!-- Pinned Slideshow Timeline -->
 <section class="cinema-section" id="timelineScroll">
   <div class="wrap cinema-wrap">
     <div class="cinema-header">
       <div class="eyebrow">Milestones</div>
       <h2>Small steps, solid work, and a few <em>big moments along the way.</em></h2>
       
-      <!-- Mini Visual Scrubber Timeline -->
       <div class="mini-scrubber-bar">
         <div class="scrubber-track">
           <div class="scrubber-fill" id="scrubberFill"></div>
@@ -85,12 +84,12 @@
 
     <div class="cinema-viewport">
 
-      <!-- 1. Oct 2026 -->
+      <!-- 01. Oct 2026 -->
       <div class="c-slide theme-pub is-active">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/pub-rl-microgrid.png" alt="RL PV-Battery Microgrid Paper" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <img src="images/timeline-01-rl-microgrid.png" alt="RL PV-Battery Microgrid Paper" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">01</span><span class="c-fallback-tag">Publication</span></div>
           </div>
         </div>
@@ -101,12 +100,12 @@
         </div>
       </div>
 
-      <!-- 2. Oct 2026 -->
+      <!-- 02. Oct 2026 -->
       <div class="c-slide theme-global">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-inspire.jpg" alt="InSPIRE-SI Shizuoka University" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(2)">
+            <img src="images/timeline-02-inspire-japan.png" alt="InSPIRE-SI Shizuoka University" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">02</span><span class="c-fallback-tag">Global Exchange</span></div>
           </div>
         </div>
@@ -114,15 +113,18 @@
           <div class="c-meta"><span class="c-tag">Global Exchange</span> · <span class="c-date">October 2026</span></div>
           <h3 class="c-title">Selected for InSPIRE-SI · Shizuoka University, Japan</h3>
           <p class="c-desc">Selected for an India–Japan collaborative program focused on renewable energy, decarbonization, and social innovation[cite: 4].</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(2)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 3. Sep 2026 -->
+      <!-- 03. Sep 2026 -->
       <div class="c-slide theme-career">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-hero.jpg" alt="Hero MotoCorp" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(3)">
+            <img src="images/timeline-03-hero-motocorp.jpeg" alt="Hero MotoCorp" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">03</span><span class="c-fallback-tag">Career</span></div>
           </div>
         </div>
@@ -130,15 +132,18 @@
           <div class="c-meta"><span class="c-tag">Career</span> · <span class="c-date">September 2026</span></div>
           <h3 class="c-title">Graduate Engineer Trainee, R&amp;D · Hero MotoCorp</h3>
           <p class="c-desc">Secured a GET role in R&amp;D with a ₹9 LPA CTC and a ₹2.5 lakh joining bonus, bringing the total package to ₹11.5 lakh.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(3)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 4. Sep 2026 -->
+      <!-- 04. Sep 2026 -->
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-sih.jpg" alt="Smart India Hackathon" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(4)">
+            <img src="images/timeline-04-sih-hackathon.jpeg" alt="Smart India Hackathon 2026" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">04</span><span class="c-fallback-tag">Hackathon</span></div>
           </div>
         </div>
@@ -146,15 +151,18 @@
           <div class="c-meta"><span class="c-tag">Hackathon</span> · <span class="c-date">September 2026</span></div>
           <h3 class="c-title">Smart India Hackathon 2026 · Internal Shortlist</h3>
           <p class="c-desc">Shortlisted internally with the CIMES SRMIST team to develop and pitch innovative engineering solutions.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(4)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 5. Aug 2026 -->
+      <!-- 05. Aug 2026 -->
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-mts-pr.jpg" alt="SRM MTS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(5)">
+            <img src="images/timeline-05-mts-pr-head.jpeg" alt="SRM MTS PR and Media Head" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">05</span><span class="c-fallback-tag">Leadership</span></div>
           </div>
         </div>
@@ -162,15 +170,18 @@
           <div class="c-meta"><span class="c-tag">Leadership</span> · <span class="c-date">August 2026</span></div>
           <h3 class="c-title">PR &amp; Media Head · SRM Marine Technology Society</h3>
           <p class="c-desc">Took on responsibility for media, branding, and technical outreach for the SRM-MTS Student Chapter.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(5)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 6. Jul 2026 -->
+      <!-- 06. Jul 2026 -->
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/milestone-resem.jpg" alt="IEEE RESEM 2026" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <img src="images/timeline-06-resem-bhopal.jpeg" alt="IEEE RESEM 2026" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">06</span><span class="c-fallback-tag">Conference</span></div>
           </div>
         </div>
@@ -181,12 +192,12 @@
         </div>
       </div>
 
-      <!-- 7. Mar 2026 -->
+      <!-- 07. Mar 2026 -->
       <div class="c-slide theme-award">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/award-mts-2026.jpg" alt="MTS Nanda Innovation Award" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(7)">
+            <img src="images/timeline-07-mts-nanda-award.jpeg" alt="5th MTS Nanda Innovation Award" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">07</span><span class="c-fallback-tag">Award</span></div>
           </div>
         </div>
@@ -194,15 +205,18 @@
           <div class="c-meta"><span class="c-tag">Award</span> · <span class="c-date">March 2026</span></div>
           <h3 class="c-title">3rd Prize · 5th MTS Nanda Innovation Award</h3>
           <p class="c-desc">Recognized by the MTS India Section for a CubeSat electrical power subsystem featuring a bidirectional SEPIC converter and smart battery management system.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(7)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 8. Mar 2026 -->
+      <!-- 08. Mar 2026 -->
       <div class="c-slide theme-pub">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/pub-dfig-comparative.png" alt="DFIG Wind Turbine Fault Detection" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <img src="images/timeline-08-dfig-paper.jpeg" alt="DFIG Wind Turbine Fault Detection" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">08</span><span class="c-fallback-tag">Publication</span></div>
           </div>
         </div>
@@ -213,13 +227,12 @@
         </div>
       </div>
 
-      <!-- 9. Feb 2026 -->
+      <!-- 09. Feb 2026 (No Image Needed) -->
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/milestone-cimes.jpg" alt="CIMES SRMIST" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">09</span><span class="c-fallback-tag">Research</span></div>
+            <div class="c-fallback"><span class="c-fallback-num">09</span><span class="c-fallback-tag">Research</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -233,8 +246,8 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-ispace.jpg" alt="CubeSat EPS Review" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(10)">
+            <img src="images/timeline-10-cubesat-review.jpeg" alt="CubeSat EPS Review Bengaluru" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">10</span><span class="c-fallback-tag">Review</span></div>
           </div>
         </div>
@@ -242,6 +255,9 @@
           <div class="c-meta"><span class="c-tag">Industry Review</span> · <span class="c-date">December 2025</span></div>
           <h3 class="c-title">CubeSat EPS Technical Review · Bengaluru</h3>
           <p class="c-desc">Presented the CubeSat electrical power subsystem architecture and received technical feedback from space industry professionals at ITCA.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(10)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
@@ -249,8 +265,8 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-iconscept.jpg" alt="IEEE iConSCEPT 2025" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(11)">
+            <img src="images/timeline-11-iconscept-nit.jpeg" alt="IEEE iConSCEPT 2025" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">11</span><span class="c-fallback-tag">Conference</span></div>
           </div>
         </div>
@@ -258,16 +274,18 @@
           <div class="c-meta"><span class="c-tag">Conference</span> · <span class="c-date">December 2025</span></div>
           <h3 class="c-title">IEEE iConSCEPT 2025 · NIT Puducherry</h3>
           <p class="c-desc">Presented comparative machine learning methods for fault classification in grid-connected wind energy systems[cite: 11].</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(11)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 12. Feb 2025 - Feb 2026 -->
+      <!-- 12. Feb 2025 - Feb 2026 (No Image Needed) -->
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/milestone-iaemp.jpg" alt="IAEMP SRM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">12</span><span class="c-fallback-tag">Leadership</span></div>
+            <div class="c-fallback"><span class="c-fallback-num">12</span><span class="c-fallback-tag">Leadership</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -281,8 +299,8 @@
       <div class="c-slide theme-award">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/award-chancellor-2025.jpg" alt="Chancellor Award" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(13)">
+            <img src="images/timeline-13-chancellor-award.jpeg" alt="Chancellor Award" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">13</span><span class="c-fallback-tag">Award</span></div>
           </div>
         </div>
@@ -290,16 +308,18 @@
           <div class="c-meta"><span class="c-tag">Award</span> · <span class="c-date">February 2025</span></div>
           <h3 class="c-title">Chancellor’s Award for Excellence in Undergraduate Research</h3>
           <p class="c-desc">Received SRMIST's Chancellor's Award in recognition of undergraduate research contributions.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(13)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 14. Nov 2024 -->
+      <!-- 14. Nov 2024 (No Image Needed) -->
       <div class="c-slide theme-pub">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/pub-wecs-ml.png" alt="WECS ML Paper" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">14</span><span class="c-fallback-tag">Publication</span></div>
+            <div class="c-fallback"><span class="c-fallback-num">14</span><span class="c-fallback-tag">Publication</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -313,8 +333,8 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-opalrt.jpg" alt="OPAL-RT and RTDS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(15)">
+            <img src="images/timeline-15-opalrt-simulation.jpeg" alt="OPAL-RT and RTDS Simulation" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">15</span><span class="c-fallback-tag">Simulation</span></div>
           </div>
         </div>
@@ -322,6 +342,9 @@
           <div class="c-meta"><span class="c-tag">Training</span> · <span class="c-date">August 2024</span></div>
           <h3 class="c-title">OPAL-RT &amp; RTDS · Real-Time Simulation</h3>
           <p class="c-desc">Gained training in real-time digital simulation and hardware-in-the-loop concepts for wind energy conversion controllers.</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(15)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
@@ -330,7 +353,7 @@
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/award-eee-2024.jpg" alt="Excellence in Research Year 1" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <img src="images/timeline-16-year1-eee-award.jpeg" alt="Excellence in Research Year 1" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">16</span><span class="c-fallback-tag">Award</span></div>
           </div>
         </div>
@@ -345,8 +368,8 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-card-rect">
-            <img src="images/milestone-icspcre.jpg" alt="IEEE ICSPCRE 2024" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="c-card-rect" onclick="openLinkedInModal(17)">
+            <img src="images/timeline-17-icspcre-nit.jpeg" alt="IEEE ICSPCRE 2024" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">17</span><span class="c-fallback-tag">Conference</span></div>
           </div>
         </div>
@@ -354,16 +377,18 @@
           <div class="c-meta"><span class="c-tag">Conference</span> · <span class="c-date">July 2024</span></div>
           <h3 class="c-title">First Conference Presentation · IEEE ICSPCRE 2024</h3>
           <p class="c-desc">Presented research on wind energy conversion system fault diagnostics at NIT Rourkela[cite: 8, 11].</p>
+          <div class="c-actions">
+            <button class="btn-post" onclick="openLinkedInModal(17)">View LinkedIn Post ↗</button>
+          </div>
         </div>
       </div>
 
-      <!-- 18. Jun - Jul 2024 -->
+      <!-- 18. Jun - Jul 2024 (No Image Needed) -->
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/milestone-csir.jpg" alt="CSIR CSIO Internship" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">18</span><span class="c-fallback-tag">Internship</span></div>
+            <div class="c-fallback"><span class="c-fallback-num">18</span><span class="c-fallback-tag">Internship</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -378,7 +403,7 @@
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/milestone-audit.jpg" alt="Grounding Audit" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <img src="images/timeline-19-grounding-audit.jpeg" alt="Grounding Audit" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">19</span><span class="c-fallback-tag">Fieldwork</span></div>
           </div>
         </div>
@@ -394,7 +419,7 @@
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
           <div class="c-card-rect">
-            <img src="images/milestone-biooil.jpg" alt="Bio Oil Transformer Research" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <img src="images/timeline-20-biooil-research.jpeg" alt="Bio Oil Transformer Research" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="c-fallback" style="display:none;"><span class="c-fallback-num">20</span><span class="c-fallback-tag">Research</span></div>
           </div>
         </div>
@@ -408,6 +433,19 @@
     </div>
   </div>
 </section>
+
+<!-- LinkedIn Post Preview Modal -->
+<div class="li-modal" id="linkedInModal" onclick="closeLinkedInModal(event)">
+  <div class="li-modal-box">
+    <button class="li-modal-close" onclick="closeLinkedInModal()">✕</button>
+    <img class="li-modal-img" id="modalImg" src="" alt="Post visual">
+    <div class="li-modal-body">
+      <h4 class="li-modal-title" id="modalTitle">Post Preview</h4>
+      <p class="li-modal-desc" id="modalDesc"></p>
+      <a class="li-modal-btn" id="modalLink" href="#" target="_blank" rel="noopener noreferrer">Open on LinkedIn ↗</a>
+    </div>
+  </div>
+</div>
 
 <section style="padding-top:0"><div class="wrap">
  <div class="sec-head reveal"><div class="eyebrow">Selected work</div><h2>Featured <em>projects.</em></h2><p>Each project has its own page with my contribution, scope and documented outcomes.</p></div>
@@ -439,8 +477,87 @@
 </main>
 <footer><div class="wrap"><span>© <span data-year>2026</span> Sree Sowmi Ananthasayanam · SRM Institute of Science and Technology</span><span><a href="mailto:sreesowmi2005@gmail.com">Email</a><a href="https://www.linkedin.com/in/sree-sowmi-ananthasayanam" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="cv.html">CV</a></span></div></footer>
 
-<!-- Interactive Pinned Slideshow Scroll Engine with Scrubber Tracker -->
+<!-- Slideshow Engine & LinkedIn Modal Script -->
 <script>
+const postData = {
+  2: {
+    title: "Selected for InSPIRE-SI · Shizuoka University, Japan",
+    desc: "Selected for InSPIRE, an India–Japan collaborative programme exploring decarbonization pathways, renewable energy technologies, and social innovation with Japanese and Indian students.",
+    img: "images/timeline-02-inspire-japan.png",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7482626177501818880/"
+  },
+  3: {
+    title: "Graduate Engineer Trainee, R&D · Hero MotoCorp",
+    desc: "Thrilled to secure a core GET role in R&D at Hero MotoCorp with a ₹9 LPA CTC and ₹2.5 lakh joining bonus (₹11.5 lakh total package).",
+    img: "images/timeline-03-hero-motocorp.jpeg",
+    url: "https://lnkd.in/p/gdTrTcXC"
+  },
+  4: {
+    title: "Smart India Hackathon 2026 · Internal Shortlist",
+    desc: "A glimpse from SIH ’26! A snapshot of dedication and collaboration as our team presented engineering innovations with CIMES SRMIST.",
+    img: "images/timeline-04-sih-hackathon.jpeg",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7502249299536248832/"
+  },
+  5: {
+    title: "PR & Media Head · SRM Marine Technology Society",
+    desc: "Taking on leadership for media branding and technical outreach for the SRM-MTS Student Chapter, building impactful engineering showcases.",
+    img: "images/timeline-05-mts-pr-head.jpeg",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7512204289730154496/"
+  },
+  7: {
+    title: "3rd Prize · 5th MTS Nanda Innovation Award",
+    desc: "Awarded 3rd place by MTS India Section for our CubeSat Bidirectional SEPIC-Based EPS with Smart BMS project for small satellites.",
+    img: "images/timeline-07-mts-nanda-award.jpeg",
+    url: "https://lnkd.in/p/g84c3G5S"
+  },
+  10: {
+    title: "CubeSat EPS Technical Review · Bengaluru",
+    desc: "Had a great technical review of our CubeSat architecture at IspaceI Satellite & Research (ITCA) with Er. S. Shanmugam, Ms. Sofia Vangeti, and Dr. K. Gopalakrishnan.",
+    img: "images/timeline-10-cubesat-review.jpeg",
+    url: "https://lnkd.in/p/grE4Gifa"
+  },
+  11: {
+    title: "IEEE iConSCEPT 2025 · NIT Puducherry",
+    desc: "Presented our research on ML fault detection for DFIG wind energy systems, receiving our certificate from Dr. Venkatesan M, HoD CSE, NIT Puducherry.",
+    img: "images/timeline-11-iconscept-nit.jpeg",
+    url: "https://lnkd.in/p/gwcKj6Pv"
+  },
+  13: {
+    title: "Chancellor’s Award for Research Excellence",
+    desc: "Honored to receive SRMIST's Chancellor's Award for Excellence in Undergraduate Research as a 2nd-year student based on IEEE conference authorship.",
+    img: "images/timeline-13-chancellor-award.jpeg",
+    url: "https://lnkd.in/p/gzh_RRGJ"
+  },
+  15: {
+    title: "OPAL-RT & RTDS · Real-Time Simulation",
+    desc: "Guided through Real-Time Digital Simulator (RTDS) and OPAL-RT simulation concepts for wind energy conversion controllers by doctoral researcher Preethi Santhosam.",
+    img: "images/timeline-15-opalrt-simulation.jpeg",
+    url: "https://lnkd.in/p/gWc7-nkT"
+  },
+  17: {
+    title: "IEEE ICSPCRE 2024 · NIT Rourkela",
+    desc: "Presented my first research paper on WECS fault analysis using machine learning at the 1st IEEE ICSPCRE 2024 at NIT Rourkela.",
+    img: "images/timeline-17-icspcre-nit.jpeg",
+    url: "https://lnkd.in/p/g7-4SxZi"
+  }
+};
+
+function openLinkedInModal(id) {
+  const item = postData[id];
+  if (!item) return;
+  document.getElementById('modalTitle').textContent = item.title;
+  document.getElementById('modalDesc').textContent = item.desc;
+  document.getElementById('modalImg').src = item.img;
+  document.getElementById('modalLink').href = item.url;
+  document.getElementById('linkedInModal').classList.add('active');
+}
+
+function closeLinkedInModal(e) {
+  if (!e || e.target.id === 'linkedInModal' || e.target.classList.contains('li-modal-close')) {
+    document.getElementById('linkedInModal').classList.remove('active');
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   const section = document.getElementById('timelineScroll');
   const slides = document.querySelectorAll('.c-slide');
@@ -472,7 +589,6 @@ document.addEventListener('DOMContentLoaded', () => {
         slides[activeIndex].classList.add('is-active');
         currentActive = activeIndex;
 
-        // Update Mini Scrubber Bar
         const pct = ((activeIndex + 1) / totalSlides) * 100;
         if (scrubberFill) scrubberFill.style.width = `${pct}%`;
         if (scrubberLabel) {
