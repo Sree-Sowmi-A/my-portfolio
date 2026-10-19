@@ -56,7 +56,7 @@
  <div class="split">
   <div class="sec-head reveal" style="margin:0"><div class="eyebrow">About</div><h2>From first principles to <em>intelligent control.</em></h2></div>
   <div class="reveal" style="--d:.15s"><p class="lead" style="max-width:none">My primary technical interests centre on intelligent energy systems, renewable energy integration, power electronics, artificial intelligence and sustainable technologies. Since my first year I have focused on connecting core electrical engineering with computing and control methodologies, and on documenting that work in publications.</p>
-  <p class="muted" style="margin-top:16px">Currently an undergraduate researcher at CIMES, SRMIST, working on multi-agent AI for microgrid energy management, and part of the InSPIRE India–Japan programme at Shizuoka University.</p></div>
+  <p class="muted" style="margin-top:16px">Currently an undergraduate researcher at CIMES, SRMIST, working on multi-agent AI for microgrid energy management, and part of the InSPIRE India–Japan programme at Shizuoka University[cite: 4].</p></div>
  </div>
 </div></section>
 
@@ -67,12 +67,20 @@
  <div class="stat reveal"><b data-count="7">7</b><span>Featured projects</span></div>
 </div></div></section>
 
-<!-- Pinned Cinematic Slideshow Section -->
+<!-- Pinned Cinematic Slideshow Section with Mini Timeline Scrubber -->
 <section class="cinema-section" id="timelineScroll">
   <div class="wrap cinema-wrap">
     <div class="cinema-header">
       <div class="eyebrow">Milestones</div>
       <h2>Small steps, solid work, and a few <em>big moments along the way.</em></h2>
+      
+      <!-- Mini Visual Scrubber Timeline -->
+      <div class="mini-scrubber-bar">
+        <div class="scrubber-track">
+          <div class="scrubber-fill" id="scrubberFill"></div>
+        </div>
+        <div class="scrubber-label" id="scrubberLabel">01 / 20</div>
+      </div>
     </div>
 
     <div class="cinema-viewport">
@@ -81,9 +89,9 @@
       <div class="c-slide theme-pub is-active">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/pub-rl-microgrid.png" alt="RL PV-Battery Microgrid Paper" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">01</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">01</span><span class="c-fallback-tag">Publication</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -97,15 +105,15 @@
       <div class="c-slide theme-global">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-inspire.jpg" alt="InSPIRE-SI Shizuoka University" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">02</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">02</span><span class="c-fallback-tag">Global Exchange</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Global Exchange</span> · <span class="c-date">October 2026</span></div>
           <h3 class="c-title">Selected for InSPIRE-SI · Shizuoka University, Japan</h3>
-          <p class="c-desc">Selected for an India–Japan collaborative program focused on renewable energy, decarbonization, and social innovation.</p>
+          <p class="c-desc">Selected for an India–Japan collaborative program focused on renewable energy, decarbonization, and social innovation[cite: 4].</p>
         </div>
       </div>
 
@@ -113,9 +121,9 @@
       <div class="c-slide theme-career">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-hero.jpg" alt="Hero MotoCorp" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">03</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">03</span><span class="c-fallback-tag">Career</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -129,9 +137,9 @@
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-sih.jpg" alt="Smart India Hackathon" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">04</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">04</span><span class="c-fallback-tag">Hackathon</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -145,9 +153,9 @@
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-mts-pr.jpg" alt="SRM MTS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">05</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">05</span><span class="c-fallback-tag">Leadership</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -161,9 +169,9 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-resem.jpg" alt="IEEE RESEM 2026" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">06</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">06</span><span class="c-fallback-tag">Conference</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -177,9 +185,9 @@
       <div class="c-slide theme-award">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/award-mts-2026.jpg" alt="MTS Nanda Innovation Award" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">07</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">07</span><span class="c-fallback-tag">Award</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -193,15 +201,15 @@
       <div class="c-slide theme-pub">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/pub-dfig-comparative.png" alt="DFIG Wind Turbine Fault Detection" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">08</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">08</span><span class="c-fallback-tag">Publication</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Publication</span> · <span class="c-date">March 2026</span></div>
           <h3 class="c-title">2nd Research Paper · DFIG Wind Turbine Fault Detection</h3>
-          <p class="c-desc">Published a comparative machine learning study on fault classification in a 9 MW doubly fed induction generator (DFIG) wind energy system in IEEE Xplore.</p>
+          <p class="c-desc">Published a comparative machine learning study on fault classification in a 9 MW doubly fed induction generator (DFIG) wind energy system in IEEE Xplore[cite: 10].</p>
         </div>
       </div>
 
@@ -209,15 +217,15 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-cimes.jpg" alt="CIMES SRMIST" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">09</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">09</span><span class="c-fallback-tag">Research</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Research</span> · <span class="c-date">February 2026</span></div>
           <h3 class="c-title">Undergraduate Researcher · CIMES, SRMIST</h3>
-          <p class="c-desc">Started exploring agentic AI and multi-agent energy management for renewable microgrids, bringing together power systems and intelligent control.</p>
+          <p class="c-desc">Started exploring agentic AI and multi-agent energy management for renewable microgrids, bringing together power systems and intelligent control[cite: 4, 8].</p>
         </div>
       </div>
 
@@ -225,9 +233,9 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-ispace.jpg" alt="CubeSat EPS Review" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">10</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">10</span><span class="c-fallback-tag">Review</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -241,15 +249,15 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-iconscept.jpg" alt="IEEE iConSCEPT 2025" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">11</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">11</span><span class="c-fallback-tag">Conference</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Conference</span> · <span class="c-date">December 2025</span></div>
           <h3 class="c-title">IEEE iConSCEPT 2025 · NIT Puducherry</h3>
-          <p class="c-desc">Presented comparative machine learning methods for fault classification in grid-connected wind energy systems.</p>
+          <p class="c-desc">Presented comparative machine learning methods for fault classification in grid-connected wind energy systems[cite: 11].</p>
         </div>
       </div>
 
@@ -257,9 +265,9 @@
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-iaemp.jpg" alt="IAEMP SRM" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">12</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">12</span><span class="c-fallback-tag">Leadership</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -273,9 +281,9 @@
       <div class="c-slide theme-award">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/award-chancellor-2025.jpg" alt="Chancellor Award" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">13</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">13</span><span class="c-fallback-tag">Award</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -289,15 +297,15 @@
       <div class="c-slide theme-pub">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/pub-wecs-ml.png" alt="WECS ML Paper" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">14</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">14</span><span class="c-fallback-tag">Publication</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Publication</span> · <span class="c-date">November 2024</span></div>
           <h3 class="c-title">1st Research Paper · Wind Energy Fault Analysis</h3>
-          <p class="c-desc">Published my first IEEE Xplore paper on machine-learning-based fault analysis for grid-connected wind energy conversion systems.</p>
+          <p class="c-desc">Published my first IEEE Xplore paper on machine-learning-based fault analysis for grid-connected wind energy conversion systems[cite: 10].</p>
         </div>
       </div>
 
@@ -305,9 +313,9 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-opalrt.jpg" alt="OPAL-RT and RTDS" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">15</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">15</span><span class="c-fallback-tag">Simulation</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -321,15 +329,15 @@
       <div class="c-slide theme-award">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/award-eee-2024.jpg" alt="Excellence in Research Year 1" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">16</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">16</span><span class="c-fallback-tag">Award</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Award</span> · <span class="c-date">August 2024</span></div>
           <h3 class="c-title">Excellence in Research · First-Year EEE</h3>
-          <p class="c-desc">Received a Certificate of Achievement from the Department of Electrical and Electronics Engineering, SRMIST, for research excellence.</p>
+          <p class="c-desc">Received a Certificate of Achievement from the Department of Electrical and Electronics Engineering, SRMIST, for research excellence[cite: 8].</p>
         </div>
       </div>
 
@@ -337,15 +345,15 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-icspcre.jpg" alt="IEEE ICSPCRE 2024" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">17</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">17</span><span class="c-fallback-tag">Conference</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Conference</span> · <span class="c-date">July 2024</span></div>
           <h3 class="c-title">First Conference Presentation · IEEE ICSPCRE 2024</h3>
-          <p class="c-desc">Presented research on wind energy conversion system fault diagnostics at NIT Rourkela.</p>
+          <p class="c-desc">Presented research on wind energy conversion system fault diagnostics at NIT Rourkela[cite: 8, 11].</p>
         </div>
       </div>
 
@@ -353,15 +361,15 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-csir.jpg" alt="CSIR CSIO Internship" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">18</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">18</span><span class="c-fallback-tag">Internship</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Internship</span> · <span class="c-date">June – July 2024</span></div>
           <h3 class="c-title">Research Intern · CSIR–CSIO</h3>
-          <p class="c-desc">Worked on modelling and simulation of a solar-powered docking system for an IoT-enabled air purification and UV disinfection unit.</p>
+          <p class="c-desc">Worked on modelling and simulation of a solar-powered docking system for an IoT-enabled air purification and UV disinfection unit[cite: 7].</p>
         </div>
       </div>
 
@@ -369,9 +377,9 @@
       <div class="c-slide theme-lead">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-audit.jpg" alt="Grounding Audit" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">19</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">19</span><span class="c-fallback-tag">Fieldwork</span></div>
           </div>
         </div>
         <div class="c-narrative">
@@ -385,15 +393,15 @@
       <div class="c-slide theme-research">
         <div class="c-visual-anchor">
           <div class="c-glow"></div>
-          <div class="c-orb">
+          <div class="c-card-rect">
             <img src="images/milestone-biooil.jpg" alt="Bio Oil Transformer Research" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="c-fallback" style="display:none;">20</div>
+            <div class="c-fallback" style="display:none;"><span class="c-fallback-num">20</span><span class="c-fallback-tag">Research</span></div>
           </div>
         </div>
         <div class="c-narrative">
           <div class="c-meta"><span class="c-tag">Research</span> · <span class="c-date">August 2023 – April 2024</span></div>
           <h3 class="c-title">Bio-Oil-Based Transformer Insulation Research</h3>
-          <p class="c-desc">Investigated natural ester blends as potential transformer insulating fluids, studying their properties against relevant IEC standards and presenting the work at Nexus-2024.</p>
+          <p class="c-desc">Investigated natural ester blends as potential transformer insulating fluids, studying their properties against relevant IEC standards and presenting the work at Nexus-2024[cite: 7, 11].</p>
         </div>
       </div>
 
@@ -431,22 +439,23 @@
 </main>
 <footer><div class="wrap"><span>© <span data-year>2026</span> Sree Sowmi Ananthasayanam · SRM Institute of Science and Technology</span><span><a href="mailto:sreesowmi2005@gmail.com">Email</a><a href="https://www.linkedin.com/in/sree-sowmi-ananthasayanam" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="cv.html">CV</a></span></div></footer>
 
-<!-- Interactive Pinned Slideshow Scroll Engine -->
+<!-- Interactive Pinned Slideshow Scroll Engine with Scrubber Tracker -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const section = document.getElementById('timelineScroll');
   const slides = document.querySelectorAll('.c-slide');
+  const scrubberFill = document.getElementById('scrubberFill');
+  const scrubberLabel = document.getElementById('scrubberLabel');
   const totalSlides = slides.length;
   if (!section || totalSlides === 0) return;
 
-  // Give section dynamic height so natural scroll drives the slides
-  const scrollDistancePerSlide = 350;
+  const scrollDistancePerSlide = 320;
   section.style.height = `${totalSlides * scrollDistancePerSlide}px`;
 
   let currentActive = 0;
 
   window.addEventListener('scroll', () => {
-    if (window.innerWidth <= 860) return; // Allow natural layout on mobile
+    if (window.innerWidth <= 900) return;
 
     const rect = section.getBoundingClientRect();
     const scrollProgress = -rect.top;
@@ -462,6 +471,15 @@ document.addEventListener('DOMContentLoaded', () => {
         slides[currentActive].classList.remove('is-active');
         slides[activeIndex].classList.add('is-active');
         currentActive = activeIndex;
+
+        // Update Mini Scrubber Bar
+        const pct = ((activeIndex + 1) / totalSlides) * 100;
+        if (scrubberFill) scrubberFill.style.width = `${pct}%`;
+        if (scrubberLabel) {
+          const numStr = (activeIndex + 1).toString().padStart(2, '0');
+          const totalStr = totalSlides.toString().padStart(2, '0');
+          scrubberLabel.textContent = `${numStr} / ${totalStr}`;
+        }
       }
     }
   }, { passive: true });
